@@ -32,4 +32,21 @@ It assists users with **order tracking, payment issues, offers, account help, an
 ---
 
 ## Project Structure  
+ShopBot/
+│
+├── app.py             # Main chatbot code (console or Streamlit interface)
+├── intents.json       # Chatbot training data with intents and menus
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
 
+### Developer
+
+ 👨‍💻 Rahul Kumar
+
+🎓 MCA Student at RIT Roorkee
+
+🌟 Aspiring Data Scientist & Full Stack Developer
+
+🔗 LinkedIn
+
+💻 GitHub
