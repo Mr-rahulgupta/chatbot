@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! Choose an option from the menu below."],
+      "menu": {
+        "1": {
+          "name": "Order Related",
+          "options": {
+            "a": "Track Order",
+            "b": "Cancel Order",
+            "c": "Return Order",
+            "d": "Refund"
+          }
+        },
+        "2": {
+          "name": "Delivery",
+          "options": {
+            "a": "Check Delivery Date",
+            "b": "Change Address"
+          }
+        },
+        "3": {
+          "name": "Payment",
+          "options": {
+            "a": "Payment Methods",
+            "b": "Payment Failed",
+            "c": "Refund Status"
+          }
+        },
+        "4": {
+          "name": "Offers",
+          "options": {
+            "a": "Current Offers",
+            "b": "Apply Coupon Code"
+          }
+        },
+        "5": {
+          "name": "Account",
+          "options": {
+            "a": "Create Account",
+            "b": "Login",
+            "c": "Forgot Password"
+          }
+        },
+        "6": {
+          "name": "Contact Support",
+          "options": {
+            "a": "Email Support",
+            "b": "Customer Care Number"
+          }
+        }
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+    },
+    {
+      "tag": "health",
+      "patterns": ["I have a fever", "I feel sick", "What should I do if I have a cough?"],
+      "responses": ["I'm not a doctor, but you should rest and drink water. If it gets worse, please visit a doctor."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "Has my order been shipped?"],
+      "responses": ["Please provide your order ID to track your package.", "You can check your order status in the 'My Orders' section."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Cancel my order", "I want to cancel my order", "Can I cancel my purchase?"],
+      "responses": ["Orders can be canceled within 24 hours of purchase. Visit your orders page to cancel your order before shipping."]
+    },
+    {
+      "tag": "return_order",
+      "patterns": ["Return my order", "I want to return my order", "How do I return an item?"],
+      "responses": ["You can return items within 7 days of delivery. Please check the 'Return' section in your account."]
+    },
+    {
+      "tag": "payment_help",
+      "patterns": ["Payment failed", "I have a payment issue", "Refund status", "How do I pay?"],
+      "responses": ["Please check your payment method or contact your bank. For refunds, visit your account 'Orders' section."]
+    },
+    {
+      "tag": "offers",
+      "patterns": ["Current offers", "Apply coupon", "Discounts", "Deals"],
+      "responses": ["You can view all current offers on the 'Offers' section of our website or app."]
+    },
+    {
+      "tag": "account",
+      "patterns": ["Create account", "Login", "Forgot password", "Update profile"],
+      "responses": ["You can create, login, or reset password in the 'Account' section of our website or app."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["Email support", "Customer care", "Contact support", "Help"],
+      "responses": ["You can contact us via email at support@shopbot.com or call our customer care number."]
+    }
+  ]
+}
